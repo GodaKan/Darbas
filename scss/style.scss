@@ -1,0 +1,36 @@
+:root {
+  --head-color: rgb(248, 249, 250)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Lato;
+}
+
+header{
+  background: var(--head-color);
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  // padding-left: 200px;
+  // padding-right: 200px;
+
+  p{
+    margin: 150px;
+  }
+  
+  button{
+    margin: 150px;
+    color: blue($color: #000000);
+  }
+
+}
